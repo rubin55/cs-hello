@@ -1,5 +1,25 @@
 <Directives>
     <Application>
         <Assembly Name="hello" Dynamic="Required All" />
+        <!-- 'Microsoft.EntityFrameworkCore.Internal.DiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.Infrastructure>' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Internal.DbSetInitializer' -->
+        <!-- 'Microsoft.EntityFrameworkCore.DbSet<hello.Blog>'-->
+        <Assembly Name="Microsoft.EntityFrameworkCore">
+            <Type Name="Microsoft.EntityFrameworkCore.Internal.DiagnosticsLogger`1[[Microsoft.EntityFrameworkCore.DbLoggerCategory+Infrastructure,Microsoft.EntityFrameworkCore]]" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Internal.DbSetInitializer" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.DbSet`1[[hello.Blog,hello]]" Dynamic="Required All" />
+        </Assembly>
+        <!-- 'Microsoft.Extensions.Options.OptionsMonitor<Microsoft.Extensions.Logging.LoggerFilterOptions>' -->
+        <!-- 'Microsoft.Extensions.Options.OptionsFactory<Microsoft.Extensions.Logging.LoggerFilterOptions>' -->
+        <!-- 'Microsoft.Extensions.Options.OptionsCache<Microsoft.Extensions.Logging.LoggerFilterOptions>' -->
+        <Assembly Name="Microsoft.Extensions.Options">
+            <Type Name="Microsoft.Extensions.Options.OptionsMonitor`1[[Microsoft.Extensions.Logging.LoggerFilterOptions,Microsoft.Extensions.Logging]]" Dynamic="Required All" />
+            <Type Name="Microsoft.Extensions.Options.OptionsFactory`1[[Microsoft.Extensions.Logging.LoggerFilterOptions,Microsoft.Extensions.Logging]]" Dynamic="Required All" />
+            <Type Name="Microsoft.Extensions.Options.OptionsCache`1[[Microsoft.Extensions.Logging.LoggerFilterOptions,Microsoft.Extensions.Logging]]" Dynamic="Required All" />
+        </Assembly>
+
+        <Assembly Name="Microsoft.Extensions.Logging">
+            <Type Name="Microsoft.Extensions.Logging.LoggerFilterOptions" Dynamic="Required All" />
+        </Assembly>
     </Application>
 </Directives>
