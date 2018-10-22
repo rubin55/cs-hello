@@ -4,11 +4,27 @@
         <!-- 'Microsoft.EntityFrameworkCore.Internal.DiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.Infrastructure>' -->
         <!-- 'Microsoft.EntityFrameworkCore.Internal.DbSetInitializer' -->
         <!-- 'Microsoft.EntityFrameworkCore.DbSet<hello.Blog>'-->
+        <!-- 'Microsoft.EntityFrameworkCore.Metadata.Internal.ClrAccessorFactory<Microsoft.EntityFrameworkCore.Metadata.Internal.IClrPropertySetter>.
+                CreateGeneric<
+                    hello.BloggingContext,
+                    Microsoft.EntityFrameworkCore.DbSet<hello.Blog>,
+                    Microsoft.EntityFrameworkCore.DbSet<hello.Blog>>
+                    (System.Reflection.PropertyInfo,Microsoft.EntityFrameworkCore.Metadata.IPropertyBase)'
+        -->
+
         <Assembly Name="Microsoft.EntityFrameworkCore">
             <Type Name="Microsoft.EntityFrameworkCore.Internal.DiagnosticsLogger`1[[Microsoft.EntityFrameworkCore.DbLoggerCategory+Infrastructure,Microsoft.EntityFrameworkCore]]" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.Internal.DbSetInitializer" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.DbSet`1[[hello.Blog,hello]]" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Metadata.Internal.ClrAccessorFactory`1[[Microsoft.EntityFrameworkCore.Metadata.Internal.IClrPropertySetter,Microsoft.EntityFrameworkCore]]">
+                <Method Name="CreateGeneric" Dynamic="Required">
+                    <GenericArgument Name="hello.BloggingContext,hello" />
+                    <GenericArgument Name="Microsoft.EntityFrameworkCore.DbSet`1[[hello.Blog,hello]], Microsoft.EntityFrameworkCore" />
+                    <GenericArgument Name="Microsoft.EntityFrameworkCore.DbSet`1[[hello.Blog,hello]], Microsoft.EntityFrameworkCore" />
+                </Method>
+            </Type>
         </Assembly>
+
         <!-- 'Microsoft.Extensions.Options.OptionsMonitor<Microsoft.Extensions.Logging.LoggerFilterOptions>' -->
         <!-- 'Microsoft.Extensions.Options.OptionsFactory<Microsoft.Extensions.Logging.LoggerFilterOptions>' -->
         <!-- 'Microsoft.Extensions.Options.OptionsCache<Microsoft.Extensions.Logging.LoggerFilterOptions>' -->
