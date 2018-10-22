@@ -1,4 +1,4 @@
-A small example using dotnet core 2.1 with CoreRT:
+A small example using dotnet core 2.1 with CoreRT on Windows:
 
 
   - `git clone https://github.com/rubin55/dot-hello`
@@ -6,6 +6,14 @@ A small example using dotnet core 2.1 with CoreRT:
   - `dotnet publish -r win-x64 -c release`
   - `cd bin\release\netcoreapp2.1\win-x64\publish`
   - `hello.exe`
+
+On macOS (tested on Mojava 10.14):
+
+  - `git clone https://github.com/rubin55/dot-hello`
+  - `cd dot-hello`
+  - `dotnet publish -r osx-x64 -c release`
+  - `cd bin/release/netcoreapp2.1/osx-x64/publish`
+  - `./hello`
 
 On Linux (tested on Ubuntu 16.04), make sure native compilation deps are taken care of:
 

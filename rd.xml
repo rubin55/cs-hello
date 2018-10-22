@@ -1,0 +1,4 @@
+<Directives>
+    <Application>
+        <Assembly Name="hello" Dynamic="Required All" />
+</Directives>
