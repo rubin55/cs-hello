@@ -11,7 +11,18 @@
                     Microsoft.EntityFrameworkCore.DbSet<hello.Blog>>
                     (System.Reflection.PropertyInfo,Microsoft.EntityFrameworkCore.Metadata.IPropertyBase)'
         -->
-
+        <!-- 'Microsoft.EntityFrameworkCore.Storage.DatabaseProvider<Microsoft.EntityFrameworkCore.Sqlite.Infrastructure.Internal.SqliteOptionsExtension>..ctor(Microsoft.EntityFrameworkCore.Storage.DatabaseProviderDependencies)' -->
+        <!-- Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector..ctor(Microsoft.EntityFrameworkCore.Diagnostics.IDiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.ChangeTracking>,Microsoft.EntityFrameworkCore.Diagnostics.ILoggingOptions)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher..ctor(Microsoft.EntityFrameworkCore.ChangeTracking.IEntityEntryGraphIterator)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Storage.ValueConversion.ValueConverterSelector..ctor(Microsoft.EntityFrameworkCore.Storage.ValueConversion.ValueConverterSelectorDependencies)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Storage.TypeMappingSourceDependencies..ctor(Microsoft.EntityFrameworkCore.Storage.ValueConversion.IValueConverterSelector)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Metadata.Internal.ParameterBindingFactories..ctor(System.Collections.Generic.IEnumerable<Microsoft.EntityFrameworkCore.Metadata.Internal.IParameterBindingFactory>,Microsoft.EntityFrameworkCore.Internal.IRegisteredServices)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Metadata.Internal.ConstructorBindingFactory..ctor(Microsoft.EntityFrameworkCore.Metadata.Internal.IPropertyParameterBindingFactory,Microsoft.EntityFrameworkCore.Metadata.Internal.IParameterBindingFactories)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Metadata.Internal.MemberClassifier..ctor(Microsoft.EntityFrameworkCore.Storage.ITypeMappingSource,Microsoft.EntityFrameworkCore.Metadata.Internal.IParameterBindingFactories)'-->
+        <!-- 'Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.CoreConventionSetBuilderDependencies..ctor(Microsoft.EntityFrameworkCore.Storage.ITypeMappingSource,Microsoft.EntityFrameworkCore.Metadata.Internal.IConstructorBindingFactory,Microsoft.EntityFrameworkCore.Metadata.Internal.IParameterBindingFactories,Microsoft.EntityFrameworkCore.Metadata.Internal.IMemberClassifier,Microsoft.EntityFrameworkCore.Diagnostics.IDiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.Model>,Microsoft.EntityFrameworkCore.Storage.ITypeMapper)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.CoreConventionSetBuilder..ctor(Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.CoreConventionSetBuilderDependencies)'-->
+        <!-- 'Microsoft.EntityFrameworkCore.Infrastructure.ModelCustomizerDependencies..ctor(Microsoft.EntityFrameworkCore.Internal.IDbSetFinder)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelCustomizer..ctor(Microsoft.EntityFrameworkCore.Infrastructure.ModelCustomizerDependencies)' -->
         <Assembly Name="Microsoft.EntityFrameworkCore">
             <Type Name="Microsoft.EntityFrameworkCore.Internal.DiagnosticsLogger`1[[Microsoft.EntityFrameworkCore.DbLoggerCategory+Infrastructure,Microsoft.EntityFrameworkCore]]" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.Internal.DbSetInitializer" Dynamic="Required All" />
@@ -28,19 +39,42 @@
                     <GenericArgument Name="hello.Blog,hello" />
                 </Method>
             </Type>
+            <Type Name="Microsoft.EntityFrameworkCore.Storage.DatabaseProvider`1[[Microsoft.EntityFrameworkCore.Sqlite.Infrastructure.Internal.SqliteOptionsExtension,Microsoft.EntityFrameworkCore.Sqlite]]" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Storage.ValueConversion.ValueConverterSelector" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Storage.TypeMappingSourceDependencies" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Metadata.Internal.ParameterBindingFactories" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Metadata.Internal.ConstructorBindingFactory" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Metadata.Internal.MemberClassifier" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.CoreConventionSetBuilderDependencies" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.CoreConventionSetBuilder" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Infrastructure.ModelCustomizerDependencies" Dynamic="Required All" />
+        </Assembly>
+
+
+        <!-- 'Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteTypeMappingSource..ctor(Microsoft.EntityFrameworkCore.Storage.TypeMappingSourceDependencies,Microsoft.EntityFrameworkCore.Storage.RelationalTypeMappingSourceDependencies)'  -->
+        <Assembly Name="Microsoft.EntityFrameworkCore.Sqlite">
+            <Type Name="Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteTypeMappingSource" Dynamic="Required All" />
         </Assembly>
 
         <!-- 'Microsoft.Extensions.Options.OptionsMonitor<Microsoft.Extensions.Logging.LoggerFilterOptions>' -->
         <!-- 'Microsoft.Extensions.Options.OptionsFactory<Microsoft.Extensions.Logging.LoggerFilterOptions>' -->
         <!-- 'Microsoft.Extensions.Options.OptionsCache<Microsoft.Extensions.Logging.LoggerFilterOptions>' -->
+        <!-- 'Microsoft.Extensions.Options.OptionsManager<Microsoft.Extensions.Caching.Memory.MemoryCacheOptions>'-->
         <Assembly Name="Microsoft.Extensions.Options">
             <Type Name="Microsoft.Extensions.Options.OptionsMonitor`1[[Microsoft.Extensions.Logging.LoggerFilterOptions,Microsoft.Extensions.Logging]]" Dynamic="Required All" />
             <Type Name="Microsoft.Extensions.Options.OptionsFactory`1[[Microsoft.Extensions.Logging.LoggerFilterOptions,Microsoft.Extensions.Logging]]" Dynamic="Required All" />
             <Type Name="Microsoft.Extensions.Options.OptionsCache`1[[Microsoft.Extensions.Logging.LoggerFilterOptions,Microsoft.Extensions.Logging]]" Dynamic="Required All" />
+            <Type Name="Microsoft.Extensions.Options.OptionsManager`1[[Microsoft.Extensions.Caching.Memory.MemoryCacheOptions,Microsoft.Extensions.Caching.Memory]]" Dynamic="Required All" />
         </Assembly>
 
         <Assembly Name="Microsoft.Extensions.Logging">
             <Type Name="Microsoft.Extensions.Logging.LoggerFilterOptions" Dynamic="Required All" />
+        </Assembly>
+
+        <Assembly Name="Microsoft.Extensions.Caching.Memory">
+            <Type Name="Microsoft.Extensions.Caching.Memory.MemoryCacheOptions" Dynamic="Required All" />
         </Assembly>
 
         <!-- System.Linq.Expressions.ExpressionCreator<System.Action<hello.BloggingContext,Microsoft.EntityFrameworkCore.DbSet<hello.Blog>>>. -->
