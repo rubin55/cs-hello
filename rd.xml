@@ -22,7 +22,13 @@
         <!-- 'Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.CoreConventionSetBuilderDependencies..ctor(Microsoft.EntityFrameworkCore.Storage.ITypeMappingSource,Microsoft.EntityFrameworkCore.Metadata.Internal.IConstructorBindingFactory,Microsoft.EntityFrameworkCore.Metadata.Internal.IParameterBindingFactories,Microsoft.EntityFrameworkCore.Metadata.Internal.IMemberClassifier,Microsoft.EntityFrameworkCore.Diagnostics.IDiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.Model>,Microsoft.EntityFrameworkCore.Storage.ITypeMapper)' -->
         <!-- 'Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.CoreConventionSetBuilder..ctor(Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.CoreConventionSetBuilderDependencies)'-->
         <!-- 'Microsoft.EntityFrameworkCore.Infrastructure.ModelCustomizerDependencies..ctor(Microsoft.EntityFrameworkCore.Internal.IDbSetFinder)' -->
-        <!-- 'Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelCustomizer..ctor(Microsoft.EntityFrameworkCore.Infrastructure.ModelCustomizerDependencies)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Infrastructure.ModelCacheKeyFactory..ctor(Microsoft.EntityFrameworkCore.Infrastructure.ModelCacheKeyFactoryDependencies)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Infrastructure.ModelSourceDependencies..ctor(Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ICoreConventionSetBuilder,Microsoft.EntityFrameworkCore.Infrastructure.IModelCustomizer,Microsoft.EntityFrameworkCore.Infrastructure.IModelCacheKeyFactory)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Infrastructure.ModelValidatorDependencies..ctor(Microsoft.EntityFrameworkCore.Diagnostics.IDiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.Model.Validation>,Microsoft.EntityFrameworkCore.Diagnostics.IDiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.Model>)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.QueryContextDependencies..ctor(Microsoft.EntityFrameworkCore.Internal.ICurrentDbContext,Microsoft.EntityFrameworkCore.Internal.IConcurrencyDetector)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Storage.ExecutionStrategyDependencies..ctor(Microsoft.EntityFrameworkCore.Internal.ICurrentDbContext,Microsoft.EntityFrameworkCore.Infrastructure.IDbContextOptions,Microsoft.EntityFrameworkCore.Diagnostics.IDiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.Infrastructure>)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache..ctor(Microsoft.Extensions.Caching.Memory.IMemoryCache)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.CompiledQueryCacheKeyGeneratorDependencies..ctor(Microsoft.EntityFrameworkCore.Metadata.IModel,Microsoft.EntityFrameworkCore.Internal.ICurrentDbContext)' -->
         <Assembly Name="Microsoft.EntityFrameworkCore">
             <Type Name="Microsoft.EntityFrameworkCore.Internal.DiagnosticsLogger`1[[Microsoft.EntityFrameworkCore.DbLoggerCategory+Infrastructure,Microsoft.EntityFrameworkCore]]" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.Internal.DbSetInitializer" Dynamic="Required All" />
@@ -50,13 +56,53 @@
             <Type Name="Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.CoreConventionSetBuilderDependencies" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.CoreConventionSetBuilder" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.Infrastructure.ModelCustomizerDependencies" Dynamic="Required All" />
-            <Type Name="Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelCustomizer" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Infrastructure.ModelCacheKeyFactory" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Infrastructure.ModelSourceDependencies" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Infrastructure.ModelValidatorDependencies" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.QueryContextDependencies" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Storage.ExecutionStrategyDependencies" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.CompiledQueryCacheKeyGeneratorDependencies" Dynamic="Required All" />
         </Assembly>
 
+        <!-- 'Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelCustomizer..ctor(Microsoft.EntityFrameworkCore.Infrastructure.ModelCustomizerDependencies)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Infrastructure.Internal.RelationalModelSource..ctor(Microsoft.EntityFrameworkCore.Infrastructure.ModelSourceDependencies)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.RelationalConventionSetBuilderDependencies..ctor(Microsoft.EntityFrameworkCore.Storage.IRelationalTypeMappingSource,Microsoft.EntityFrameworkCore.Diagnostics.IDiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.Model>,Microsoft.EntityFrameworkCore.Internal.ICurrentDbContext,Microsoft.EntityFrameworkCore.Internal.IDbSetFinder,Microsoft.EntityFrameworkCore.Storage.IRelationalTypeMapper)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidatorDependencies..ctor(Microsoft.EntityFrameworkCore.Storage.IRelationalTypeMapper,Microsoft.EntityFrameworkCore.Storage.IRelationalTypeMappingSource)'-->
+        <!-- 'Microsoft.EntityFrameworkCore.Storage.Internal.NamedConnectionStringResolver..ctor(Microsoft.EntityFrameworkCore.Infrastructure.IDbContextOptions)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Storage.RelationalTransactionFactory..ctor(Microsoft.EntityFrameworkCore.Storage.RelationalTransactionFactoryDependencies)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommandBuilderFactory..ctor(Microsoft.EntityFrameworkCore.Diagnostics.IDiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.Database.Command>,Microsoft.EntityFrameworkCore.Storage.IRelationalTypeMappingSource)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Storage.ParameterNameGeneratorFactory..ctor(Microsoft.EntityFrameworkCore.Storage.ParameterNameGeneratorDependencies)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Storage.Internal.RawSqlCommandBuilder..ctor(Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory,Microsoft.EntityFrameworkCore.Storage.ISqlGenerationHelper,Microsoft.EntityFrameworkCore.Storage.IParameterNameGeneratorFactory)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Storage.RelationalExecutionStrategyFactory..ctor(Microsoft.EntityFrameworkCore.Storage.ExecutionStrategyDependencies)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.RelationalQueryContextFactory..ctor(Microsoft.EntityFrameworkCore.Query.QueryContextDependencies,Microsoft.EntityFrameworkCore.Storage.IRelationalConnection,Microsoft.EntityFrameworkCore.Storage.IExecutionStrategyFactory)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.RelationalCompiledQueryCacheKeyGeneratorDependencies..ctor(Microsoft.EntityFrameworkCore.Infrastructure.IDbContextOptions)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.RelationalCompiledQueryCacheKeyGenerator..ctor(Microsoft.EntityFrameworkCore.Query.CompiledQueryCacheKeyGeneratorDependencies,Microsoft.EntityFrameworkCore.Query.RelationalCompiledQueryCacheKeyGeneratorDependencies)' -->
+        <Assembly Name="Microsoft.EntityFrameworkCore.Relational">
+            <Type Name="Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelCustomizer" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Infrastructure.Internal.RelationalModelSource" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.RelationalConventionSetBuilderDependencies" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidatorDependencies" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Storage.Internal.NamedConnectionStringResolver" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Storage.RelationalTransactionFactory" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommandBuilderFactory" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Storage.ParameterNameGeneratorFactory" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Storage.Internal.RawSqlCommandBuilder" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Storage.RelationalExecutionStrategyFactory" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.RelationalQueryContextFactory" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.RelationalCompiledQueryCacheKeyGeneratorDependencies" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.RelationalCompiledQueryCacheKeyGenerator" Dynamic="Required All" />
+        </Assembly>
 
         <!-- 'Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteTypeMappingSource..ctor(Microsoft.EntityFrameworkCore.Storage.TypeMappingSourceDependencies,Microsoft.EntityFrameworkCore.Storage.RelationalTypeMappingSourceDependencies)'  -->
+        <!-- 'Microsoft.EntityFrameworkCore.Metadata.Conventions.SqliteConventionSetBuilder..ctor(Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.RelationalConventionSetBuilderDependencies)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Internal.SqliteModelValidator..ctor(Microsoft.EntityFrameworkCore.Infrastructure.ModelValidatorDependencies,Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidatorDependencies)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteSqlGenerationHelper..ctor(Microsoft.EntityFrameworkCore.Storage.RelationalSqlGenerationHelperDependencies)' -->
         <Assembly Name="Microsoft.EntityFrameworkCore.Sqlite">
             <Type Name="Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteTypeMappingSource" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Metadata.Conventions.SqliteConventionSetBuilder" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Internal.SqliteModelValidator" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteSqlGenerationHelper" Dynamic="Required All" />
         </Assembly>
 
         <!-- 'Microsoft.Extensions.Options.OptionsMonitor<Microsoft.Extensions.Logging.LoggerFilterOptions>' -->
@@ -75,6 +121,7 @@
         </Assembly>
 
         <Assembly Name="Microsoft.Extensions.Caching.Memory">
+            <Type Name="Microsoft.Extensions.Caching.Memory.MemoryCache" Dynamic="Required All" />
             <Type Name="Microsoft.Extensions.Caching.Memory.MemoryCacheOptions" Dynamic="Required All" />
         </Assembly>
 
