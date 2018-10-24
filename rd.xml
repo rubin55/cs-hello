@@ -50,6 +50,7 @@
             <Type Name="Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.CoreConventionSetBuilderDependencies" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.CoreConventionSetBuilder" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.Infrastructure.ModelCustomizerDependencies" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelCustomizer" Dynamic="Required All" />
         </Assembly>
 
 
