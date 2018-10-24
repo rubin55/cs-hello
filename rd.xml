@@ -23,6 +23,11 @@
                     <GenericArgument Name="Microsoft.EntityFrameworkCore.DbSet`1[[hello.Blog,hello]], Microsoft.EntityFrameworkCore" />
                 </Method>
             </Type>
+            <Type Name="Microsoft.EntityFrameworkCore.Internal.DbSetSource">
+                <Method Name="CreateSetFactory" Dynamic="Required">
+                    <GenericArgument Name="hello.Blog,hello" />
+                </Method>
+            </Type>
         </Assembly>
 
         <!-- 'Microsoft.Extensions.Options.OptionsMonitor<Microsoft.Extensions.Logging.LoggerFilterOptions>' -->
@@ -36,6 +41,12 @@
 
         <Assembly Name="Microsoft.Extensions.Logging">
             <Type Name="Microsoft.Extensions.Logging.LoggerFilterOptions" Dynamic="Required All" />
+        </Assembly>
+
+        <!-- System.Linq.Expressions.ExpressionCreator<System.Action<hello.BloggingContext,Microsoft.EntityFrameworkCore.DbSet<hello.Blog>>>. -->
+        <Assembly Name="System.Linq.Expressions">
+            <Type Name="System.Linq.Expressions.ExpressionCreator`1[[Newtonsoft.Json.Serialization.ObjectConstructor`1[[System.Object,System.Private.CoreLib]],Newtonsoft.Json]]" Dynamic="Required All" />
+            <Type Name="System.Linq.Expressions.ExpressionCreator`1[[System.Func`2[[System.Object,System.Private.CoreLib],[System.Object,System.Private.CoreLib]],System.Private.CoreLib]]" Dynamic="Required All" />
         </Assembly>
     </Application>
 </Directives>
