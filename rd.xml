@@ -65,7 +65,13 @@
                     <GenericArgument Name="Microsoft.EntityFrameworkCore.DbSet`1[[hello.Blog,hello]], Microsoft.EntityFrameworkCore" />
                 </Method>
             </Type>
-
+            <Type Name="Microsoft.EntityFrameworkCore.Metadata.Internal.ClrAccessorFactory`1[[Microsoft.EntityFrameworkCore.Metadata.Internal.IClrPropertyGetter,Microsoft.EntityFrameworkCore]]">
+                <Method Name="CreateGeneric" Dynamic="Required">
+                    <GenericArgument Name="hello.Blog,hello" />
+                    <GenericArgument Name="System.Int32,System.Runtime" />
+                    <GenericArgument Name="System.Int32,System.Runtime" />
+                </Method>
+            </Type>
             <Type Name="Microsoft.EntityFrameworkCore.Storage.DatabaseProvider`1[[Microsoft.EntityFrameworkCore.Sqlite.Infrastructure.Internal.SqliteOptionsExtension,Microsoft.EntityFrameworkCore.Sqlite]]" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher" Dynamic="Required All" />
