@@ -11,6 +11,13 @@
                     Microsoft.EntityFrameworkCore.DbSet<hello.Blog>>
                     (System.Reflection.PropertyInfo,Microsoft.EntityFrameworkCore.Metadata.IPropertyBase)'
         -->
+        <!-- 'Microsoft.EntityFrameworkCore.Metadata.Internal.ClrAccessorFactory<Microsoft.EntityFrameworkCore.Metadata.Internal.IClrPropertyGetter>.
+                CreateGeneric<
+                    hello.Blog,
+                    System.Int32,
+                    System.Int32>
+                    (System.Reflection.PropertyInfo,Microsoft.EntityFrameworkCore.Metadata.IPropertyBase)'
+        -->
         <!-- 'Microsoft.EntityFrameworkCore.Storage.DatabaseProvider<Microsoft.EntityFrameworkCore.Sqlite.Infrastructure.Internal.SqliteOptionsExtension>..ctor(Microsoft.EntityFrameworkCore.Storage.DatabaseProviderDependencies)' -->
         <!-- Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector..ctor(Microsoft.EntityFrameworkCore.Diagnostics.IDiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.ChangeTracking>,Microsoft.EntityFrameworkCore.Diagnostics.ILoggingOptions)' -->
         <!-- 'Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher..ctor(Microsoft.EntityFrameworkCore.ChangeTracking.IEntityEntryGraphIterator)' -->
@@ -30,6 +37,23 @@
         <!-- 'Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache..ctor(Microsoft.Extensions.Caching.Memory.IMemoryCache)' -->
         <!-- 'Microsoft.EntityFrameworkCore.Query.CompiledQueryCacheKeyGeneratorDependencies..ctor(Microsoft.EntityFrameworkCore.Metadata.IModel,Microsoft.EntityFrameworkCore.Internal.ICurrentDbContext)' -->
         <!-- 'Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.EntityResultFindingExpressionVisitorFactory..ctor(Microsoft.EntityFrameworkCore.Metadata.IModel,Microsoft.EntityFrameworkCore.Query.Internal.IEntityTrackingInfoFactory)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.ResultOperatorHandler..ctor(Microsoft.EntityFrameworkCore.Query.ResultOperatorHandlerDependencies)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.IIncludableQueryable`2' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.Internal.QueryModelGenerator..ctor(Microsoft.EntityFrameworkCore.Query.Internal.INodeTypeProviderFactory,Remotion.Linq.Parsing.ExpressionVisitors.TreeEvaluation.IEvaluatableExpressionFilter,Microsoft.EntityFrameworkCore.Internal.ICurrentDbContext)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.RequiresMaterializationExpressionVisitorFactory..ctor(Microsoft.EntityFrameworkCore.Metadata.IModel)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.Internal.QueryCompilationContextDependencies..ctor(Microsoft.EntityFrameworkCore.Metadata.IModel,Microsoft.EntityFrameworkCore.Diagnostics.IDiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.Query>,Microsoft.EntityFrameworkCore.Query.IEntityQueryModelVisitorFactory,Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.IRequiresMaterializationExpressionVisitorFactory,Microsoft.EntityFrameworkCore.Internal.ICurrentDbContext)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Storage.DatabaseDependencies..ctor(Microsoft.EntityFrameworkCore.Query.IQueryCompilationContextFactory)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler..ctor(Microsoft.EntityFrameworkCore.Query.IQueryContextFactory,Microsoft.EntityFrameworkCore.Query.Internal.ICompiledQueryCache,Microsoft.EntityFrameworkCore.Query.ICompiledQueryCacheKeyGenerator,Microsoft.EntityFrameworkCore.Storage.IDatabase,Microsoft.EntityFrameworkCore.Diagnostics.IDiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.Query>,Microsoft.EntityFrameworkCore.Internal.ICurrentDbContext,Microsoft.EntityFrameworkCore.Query.Internal.IQueryModelGenerator)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider..ctor(Microsoft.EntityFrameworkCore.Query.Internal.IQueryCompiler)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer..ctor(Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IChangeDetector,Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IEntityGraphAttacher,Microsoft.EntityFrameworkCore.Diagnostics.ILoggingOptions)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier..ctor(System.Collections.Generic.IEnumerable<Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IEntityStateListener>,System.Collections.Generic.IEnumerable<Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IPropertyListener>,System.Collections.Generic.IEnumerable<Microsoft.EntityFrameworkCore.ChangeTracking.Internal.INavigationListener>,System.Collections.Generic.IEnumerable<Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IKeyListener>,System.Collections.Generic.IEnumerable<Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IQueryTrackingListener>)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.ValueGeneration.ValueGeneratorCache..ctor(Microsoft.EntityFrameworkCore.ValueGeneration.ValueGeneratorCacheDependencies)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.ValueGeneration.ValueGeneratorSelectorDependencies..ctor(Microsoft.EntityFrameworkCore.ValueGeneration.IValueGeneratorCache)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.ValueGeneration.RelationalValueGeneratorSelector..ctor(Microsoft.EntityFrameworkCore.ValueGeneration.ValueGeneratorSelectorDependencies)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.ChangeTracking.Internal.KeyPropagator..ctor(Microsoft.EntityFrameworkCore.ValueGeneration.IValueGeneratorSelector)'  -->
+        <!-- 'Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ValueGenerationManager..ctor(Microsoft.EntityFrameworkCore.ValueGeneration.IValueGeneratorSelector,Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IKeyPropagator,Microsoft.EntityFrameworkCore.Diagnostics.IDiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.ChangeTracking>,Microsoft.EntityFrameworkCore.Diagnostics.ILoggingOptions)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Internal.DbContextDependencies..ctor(Microsoft.EntityFrameworkCore.Internal.ICurrentDbContext,Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IChangeDetector,Microsoft.EntityFrameworkCore.Internal.IDbSetSource,Microsoft.EntityFrameworkCore.Internal.IDbQuerySource,Microsoft.EntityFrameworkCore.Internal.IEntityFinderSource,Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IEntityGraphAttacher,Microsoft.EntityFrameworkCore.Metadata.IModel,Microsoft.EntityFrameworkCore.Query.Internal.IAsyncQueryProvider,Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IStateManager,Microsoft.EntityFrameworkCore.Diagnostics.IDiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.Update>,Microsoft.EntityFrameworkCore.Diagnostics.IDiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.Infrastructure>)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Metadata.Internal.ClrAccessorFactory<Microsoft.EntityFrameworkCore.Metadata.Internal.IClrPropertyGetter>.CreateGeneric<hello.Blog,System.Int32,System.Int32>(System.Reflection.PropertyInfo,Microsoft.EntityFrameworkCore.Metadata.IPropertyBase)' -->
         <Assembly Name="Microsoft.EntityFrameworkCore">
             <Type Name="Microsoft.EntityFrameworkCore.Internal.DiagnosticsLogger`1[[Microsoft.EntityFrameworkCore.DbLoggerCategory+Infrastructure,Microsoft.EntityFrameworkCore]]" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.Internal.DbSetInitializer" Dynamic="Required All" />
@@ -41,11 +65,7 @@
                     <GenericArgument Name="Microsoft.EntityFrameworkCore.DbSet`1[[hello.Blog,hello]], Microsoft.EntityFrameworkCore" />
                 </Method>
             </Type>
-            <Type Name="Microsoft.EntityFrameworkCore.Internal.DbSetSource">
-                <Method Name="CreateSetFactory" Dynamic="Required">
-                    <GenericArgument Name="hello.Blog,hello" />
-                </Method>
-            </Type>
+
             <Type Name="Microsoft.EntityFrameworkCore.Storage.DatabaseProvider`1[[Microsoft.EntityFrameworkCore.Sqlite.Infrastructure.Internal.SqliteOptionsExtension,Microsoft.EntityFrameworkCore.Sqlite]]" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ChangeDetector" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher" Dynamic="Required All" />
@@ -65,6 +85,23 @@
             <Type Name="Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.Query.CompiledQueryCacheKeyGeneratorDependencies" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.EntityResultFindingExpressionVisitorFactory" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.ResultOperatorHandler" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.IIncludableQueryable`2" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.Internal.QueryModelGenerator" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.RequiresMaterializationExpressionVisitorFactory" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.Internal.QueryCompilationContextDependencies" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Storage.DatabaseDependencies" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NavigationFixer" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntryNotifier" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.ValueGeneration.ValueGeneratorCache" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.ValueGeneration.ValueGeneratorSelectorDependencies" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.ValueGeneration.ValueGeneratorSelector" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.ChangeTracking.Internal.KeyPropagator" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ValueGenerationManager" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Internal.DbContextDependencies" Dynamic="Required All" />
+
         </Assembly>
 
         <!-- 'Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelCustomizer..ctor(Microsoft.EntityFrameworkCore.Infrastructure.ModelCustomizerDependencies)' -->
@@ -83,6 +120,30 @@
         <!-- 'Microsoft.EntityFrameworkCore.Query.ExpressionTranslators.RelationalCompositeExpressionFragmentTranslator..ctor(Microsoft.EntityFrameworkCore.Query.ExpressionTranslators.RelationalCompositeExpressionFragmentTranslatorDependencies)' -->
         <!-- 'Microsoft.EntityFrameworkCore.Query.ExpressionTranslators.RelationalCompositeMethodCallTranslatorDependencies..ctor(Microsoft.EntityFrameworkCore.Diagnostics.IDiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.Query>)' -->
         <!-- 'Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.SqlTranslatingExpressionVisitorDependencies..ctor(Microsoft.EntityFrameworkCore.Query.ExpressionTranslators.IExpressionFragmentTranslator,Microsoft.EntityFrameworkCore.Query.ExpressionTranslators.ICompositeMethodCallTranslator,Microsoft.EntityFrameworkCore.Query.ExpressionTranslators.IMemberTranslator,Microsoft.EntityFrameworkCore.Storage.IRelationalTypeMapper,Microsoft.EntityFrameworkCore.Storage.IRelationalTypeMappingSource)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.RelationalProjectionExpressionVisitorDependencies..ctor(Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.ISqlTranslatingExpressionVisitorFactory,Microsoft.EntityFrameworkCore.Metadata.Internal.IEntityMaterializerSource)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.RelationalProjectionExpressionVisitorFactory..ctor(Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.RelationalProjectionExpressionVisitorDependencies)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.Sql.QuerySqlGeneratorDependencies..ctor(Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory,Microsoft.EntityFrameworkCore.Storage.ISqlGenerationHelper,Microsoft.EntityFrameworkCore.Storage.IParameterNameGeneratorFactory,Microsoft.EntityFrameworkCore.Storage.IRelationalTypeMapper,Microsoft.EntityFrameworkCore.Storage.IRelationalTypeMappingSource,Microsoft.EntityFrameworkCore.Diagnostics.IDiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.Query>)' -->
+        <!-- Microsoft.EntityFrameworkCore.Query.Expressions.SelectExpressionDependencies..ctor(Microsoft.EntityFrameworkCore.Query.Sql.IQuerySqlGeneratorFactory,Microsoft.EntityFrameworkCore.Storage.IRelationalTypeMappingSource)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.Expressions.SelectExpressionFactory..ctor(Microsoft.EntityFrameworkCore.Query.Expressions.SelectExpressionDependencies)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.MaterializerFactory..ctor(Microsoft.EntityFrameworkCore.Metadata.Internal.IEntityMaterializerSource)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Storage.RelationalValueBufferFactoryDependencies..ctor(Microsoft.EntityFrameworkCore.Storage.IRelationalTypeMappingSource)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Storage.TypedRelationalValueBufferFactoryFactory..ctor(Microsoft.EntityFrameworkCore.Storage.RelationalValueBufferFactoryDependencies)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContextFactory..ctor(Microsoft.EntityFrameworkCore.Storage.IRelationalValueBufferFactoryFactory)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.RelationalEntityQueryableExpressionVisitorDependencies..ctor(Microsoft.EntityFrameworkCore.Metadata.IModel,Microsoft.EntityFrameworkCore.Query.Expressions.ISelectExpressionFactory,Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.IMaterializerFactory,Microsoft.EntityFrameworkCore.Query.Internal.IShaperCommandContextFactory)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.RelationalEntityQueryableExpressionVisitorFactory..ctor(Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.RelationalEntityQueryableExpressionVisitorDependencies)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.Internal.RelationalEvaluatableExpressionFilter..ctor(Microsoft.EntityFrameworkCore.Metadata.IModel)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.Internal.RelationalResultOperatorHandler..ctor(Microsoft.EntityFrameworkCore.Metadata.IModel,Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.ISqlTranslatingExpressionVisitorFactory,Microsoft.EntityFrameworkCore.Query.Expressions.ISelectExpressionFactory,Microsoft.EntityFrameworkCore.Query.IResultOperatorHandler)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.CompositePredicateExpressionVisitorFactory..ctor(Microsoft.EntityFrameworkCore.Infrastructure.IDbContextOptions)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitorDependencies..ctor(Microsoft.EntityFrameworkCore.Query.IRelationalResultOperatorHandler,Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.ISqlTranslatingExpressionVisitorFactory,Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.ICompositePredicateExpressionVisitorFactory,Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.IConditionalRemovingExpressionVisitorFactory,Microsoft.EntityFrameworkCore.Infrastructure.IDbContextOptions)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitorFactory..ctor(Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitorDependencies,Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitorDependencies)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.RelationalQueryCompilationContextDependencies..ctor(Microsoft.EntityFrameworkCore.Query.Internal.INodeTypeProviderFactory)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Query.RelationalQueryCompilationContextFactory..ctor(Microsoft.EntityFrameworkCore.Query.Internal.QueryCompilationContextDependencies,Microsoft.EntityFrameworkCore.Query.RelationalQueryCompilationContextDependencies)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Update.UpdateSqlGeneratorDependencies..ctor(Microsoft.EntityFrameworkCore.Storage.ISqlGenerationHelper,Microsoft.EntityFrameworkCore.Storage.IRelationalTypeMappingSource)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor..ctor(Microsoft.EntityFrameworkCore.Internal.ICurrentDbContext,Microsoft.EntityFrameworkCore.Storage.IExecutionStrategyFactory)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Update.UpdateSqlGeneratorDependencies..ctor(Microsoft.EntityFrameworkCore.Storage.ISqlGenerationHelper,Microsoft.EntityFrameworkCore.Storage.IRelationalTypeMappingSource)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseDependencies..ctor(Microsoft.EntityFrameworkCore.Update.ICommandBatchPreparer,Microsoft.EntityFrameworkCore.Update.IBatchExecutor,Microsoft.EntityFrameworkCore.Storage.IRelationalConnection)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Storage.RelationalDatabase..ctor(Microsoft.EntityFrameworkCore.Storage.DatabaseDependencies,Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseDependencies)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.ValueGeneration.RelationalValueGeneratorSelector..ctor(Microsoft.EntityFrameworkCore.ValueGeneration.ValueGeneratorSelectorDependencies)' -->
         <Assembly Name="Microsoft.EntityFrameworkCore.Relational">
             <Type Name="Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelCustomizer" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.Infrastructure.Internal.RelationalModelSource" Dynamic="Required All" />
@@ -100,7 +161,29 @@
             <Type Name="Microsoft.EntityFrameworkCore.Query.ExpressionTranslators.RelationalCompositeExpressionFragmentTranslator" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.Query.ExpressionTranslators.RelationalCompositeMethodCallTranslatorDependencies" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.SqlTranslatingExpressionVisitorDependencies" Dynamic="Required All" />
-
+            <Type Name="Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.RelationalProjectionExpressionVisitorDependencies" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.RelationalProjectionExpressionVisitorFactory" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.Sql.QuerySqlGeneratorDependencies" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.Expressions.SelectExpressionDependencies" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.Expressions.SelectExpressionFactory" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.MaterializerFactory" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Storage.RelationalValueBufferFactoryDependencies" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Storage.TypedRelationalValueBufferFactoryFactory" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.Internal.ShaperCommandContextFactory" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.RelationalEntityQueryableExpressionVisitorDependencies" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.RelationalEntityQueryableExpressionVisitorFactory" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.Internal.RelationalEvaluatableExpressionFilter" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.Internal.RelationalResultOperatorHandler" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.CompositePredicateExpressionVisitorFactory" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitorDependencies" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitorFactory" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.RelationalQueryCompilationContextDependencies" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Query.RelationalQueryCompilationContextFactory" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Update.UpdateSqlGeneratorDependencies" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseDependencies" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Storage.RelationalDatabase" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.ValueGeneration.RelationalValueGeneratorSelector" Dynamic="Required All" />
         </Assembly>
 
         <!-- 'Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteTypeMappingSource..ctor(Microsoft.EntityFrameworkCore.Storage.TypeMappingSourceDependencies,Microsoft.EntityFrameworkCore.Storage.RelationalTypeMappingSourceDependencies)'  -->
@@ -110,6 +193,9 @@
         <!-- 'Microsoft.EntityFrameworkCore.Sqlite.Query.ExpressionTranslators.Internal.SqliteCompositeMethodCallTranslator..ctor(Microsoft.EntityFrameworkCore.Query.ExpressionTranslators.RelationalCompositeMethodCallTranslatorDependencies)' -->
         <!-- 'Microsoft.EntityFrameworkCore.Sqlite.Query.ExpressionTranslators.Internal.SqliteCompositeMemberTranslator..ctor(Microsoft.EntityFrameworkCore.Query.ExpressionTranslators.RelationalCompositeMemberTranslatorDependencies)' -->
         <!-- 'Microsoft.EntityFrameworkCore.Sqlite.Query.ExpressionVisitors.Internal.SqliteSqlTranslatingExpressionVisitorFactory..ctor(Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.SqlTranslatingExpressionVisitorDependencies)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Sqlite.Query.Sql.Internal.SqliteQuerySqlGeneratorFactory..ctor(Microsoft.EntityFrameworkCore.Query.Sql.QuerySqlGeneratorDependencies)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Sqlite.Update.Internal.SqliteUpdateSqlGenerator..ctor(Microsoft.EntityFrameworkCore.Update.UpdateSqlGeneratorDependencies)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Sqlite.Update.Internal.SqliteModificationCommandBatchFactory..ctor(Microsoft.EntityFrameworkCore.Storage.IRelationalCommandBuilderFactory,Microsoft.EntityFrameworkCore.Storage.ISqlGenerationHelper,Microsoft.EntityFrameworkCore.Update.IUpdateSqlGenerator,Microsoft.EntityFrameworkCore.Storage.IRelationalValueBufferFactoryFactory)' -->
         <Assembly Name="Microsoft.EntityFrameworkCore.Sqlite">
             <Type Name="Microsoft.EntityFrameworkCore.Sqlite.Storage.Internal.SqliteTypeMappingSource" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.Metadata.Conventions.SqliteConventionSetBuilder" Dynamic="Required All" />
@@ -118,6 +204,9 @@
             <Type Name="Microsoft.EntityFrameworkCore.Sqlite.Query.ExpressionTranslators.Internal.SqliteCompositeMethodCallTranslator" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.Sqlite.Query.ExpressionTranslators.Internal.SqliteCompositeMemberTranslator" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.Sqlite.Query.ExpressionVisitors.Internal.SqliteSqlTranslatingExpressionVisitorFactory" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Sqlite.Query.Sql.Internal.SqliteQuerySqlGeneratorFactory" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Sqlite.Update.Internal.SqliteUpdateSqlGenerator" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.Sqlite.Update.Internal.SqliteModificationCommandBatchFactory" Dynamic="Required All" />
         </Assembly>
 
         <!-- 'Microsoft.Extensions.Options.OptionsMonitor<Microsoft.Extensions.Logging.LoggerFilterOptions>' -->
@@ -145,5 +234,6 @@
             <Type Name="System.Linq.Expressions.ExpressionCreator`1[[Newtonsoft.Json.Serialization.ObjectConstructor`1[[System.Object,System.Private.CoreLib]],Newtonsoft.Json]]" Dynamic="Required All" />
             <Type Name="System.Linq.Expressions.ExpressionCreator`1[[System.Func`2[[System.Object,System.Private.CoreLib],[System.Object,System.Private.CoreLib]],System.Private.CoreLib]]" Dynamic="Required All" />
         </Assembly>
+
     </Application>
 </Directives>
