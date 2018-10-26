@@ -54,6 +54,8 @@
         <!-- 'Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ValueGenerationManager..ctor(Microsoft.EntityFrameworkCore.ValueGeneration.IValueGeneratorSelector,Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IKeyPropagator,Microsoft.EntityFrameworkCore.Diagnostics.IDiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.ChangeTracking>,Microsoft.EntityFrameworkCore.Diagnostics.ILoggingOptions)' -->
         <!-- 'Microsoft.EntityFrameworkCore.Internal.DbContextDependencies..ctor(Microsoft.EntityFrameworkCore.Internal.ICurrentDbContext,Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IChangeDetector,Microsoft.EntityFrameworkCore.Internal.IDbSetSource,Microsoft.EntityFrameworkCore.Internal.IDbQuerySource,Microsoft.EntityFrameworkCore.Internal.IEntityFinderSource,Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IEntityGraphAttacher,Microsoft.EntityFrameworkCore.Metadata.IModel,Microsoft.EntityFrameworkCore.Query.Internal.IAsyncQueryProvider,Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IStateManager,Microsoft.EntityFrameworkCore.Diagnostics.IDiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.Update>,Microsoft.EntityFrameworkCore.Diagnostics.IDiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.Infrastructure>)' -->
         <!-- 'Microsoft.EntityFrameworkCore.Metadata.Internal.ClrAccessorFactory<Microsoft.EntityFrameworkCore.Metadata.Internal.IClrPropertyGetter>.CreateGeneric<hello.Blog,System.Int32,System.Int32>(System.Reflection.PropertyInfo,Microsoft.EntityFrameworkCore.Metadata.IPropertyBase)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Internal.DbSetSource.CreateSetFactory<hello.Blog>()' -->
+        <!-- 'Microsoft.EntityFrameworkCore.ChangeTracking.ValueComparer<System.Int32>' -->
         <Assembly Name="Microsoft.EntityFrameworkCore">
             <Type Name="Microsoft.EntityFrameworkCore.Internal.DiagnosticsLogger`1[[Microsoft.EntityFrameworkCore.DbLoggerCategory+Infrastructure,Microsoft.EntityFrameworkCore]]" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.Internal.DbSetInitializer" Dynamic="Required All" />
@@ -107,7 +109,12 @@
             <Type Name="Microsoft.EntityFrameworkCore.ChangeTracking.Internal.KeyPropagator" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ValueGenerationManager" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.Internal.DbContextDependencies" Dynamic="Required All" />
-
+            <Type Name="Microsoft.EntityFrameworkCore.Internal.DbSetSource">
+                <Method Name="CreateSetFactory" Dynamic="Required">
+                    <GenericArgument Name="hello.Blog,hello" />
+                </Method>
+            </Type>
+            <Type Name="Microsoft.EntityFrameworkCore.ChangeTracking.ValueComparer`1[[System.Int32,System.Runtime]]" Dynamic="Required All" />
         </Assembly>
 
         <!-- 'Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelCustomizer..ctor(Microsoft.EntityFrameworkCore.Infrastructure.ModelCustomizerDependencies)' -->
