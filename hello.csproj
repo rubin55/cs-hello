@@ -3,6 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <PublishWithAspNetCoreTargetManifest>false</PublishWithAspNetCoreTargetManifest>
+    <RootAllApplicationAssemblies>false</RootAllApplicationAssemblies>
     <RuntimeIdentifiers>win10-x64;osx.10.11-x64;linux-x64</RuntimeIdentifiers>
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
