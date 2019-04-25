@@ -7,7 +7,7 @@ A small example using dotnet core 2.1 with CoreRT on Windows:
   - `cd bin\release\netcoreapp2.1\win-x64\publish`
   - `hello.exe`
 
-On macOS (tested on Mojava 10.14):
+On macOS (tested on Mojave 10.14):
 
   - `git clone https://github.com/rubin55/dot-hello`
   - `cd dot-hello`
