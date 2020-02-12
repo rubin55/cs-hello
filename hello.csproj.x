@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,6 +6,8 @@
     <RootAllApplicationAssemblies>false</RootAllApplicationAssemblies>
     <RuntimeIdentifiers>win10-x64;osx.10.11-x64;linux-x64</RuntimeIdentifiers>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>Hello</AssemblyName>
+    <RootNamespace>Hello</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

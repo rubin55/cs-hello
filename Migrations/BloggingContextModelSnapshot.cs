@@ -2,9 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using hello;
+using Hello;
 
-namespace hello.Migrations
+namespace Hello.Migrations
 {
     [DbContext(typeof(BloggingContext))]
     partial class BloggingContextModelSnapshot : ModelSnapshot
@@ -15,7 +15,7 @@ namespace hello.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "2.1.4-rtm-31024");
 
-            modelBuilder.Entity("hello.Blog", b =>
+            modelBuilder.Entity("Hello.Blog", b =>
                 {
                     b.Property<int>("BlogId")
                         .ValueGeneratedOnAdd();
@@ -27,7 +27,7 @@ namespace hello.Migrations
                     b.ToTable("Blogs");
                 });
 
-            modelBuilder.Entity("hello.Post", b =>
+            modelBuilder.Entity("Hello.Post", b =>
                 {
                     b.Property<int>("PostId")
                         .ValueGeneratedOnAdd();
@@ -45,9 +45,9 @@ namespace hello.Migrations
                     b.ToTable("Posts");
                 });
 
-            modelBuilder.Entity("hello.Post", b =>
+            modelBuilder.Entity("Hello.Post", b =>
                 {
-                    b.HasOne("hello.Blog", "Blog")
+                    b.HasOne("Hello.Blog", "Blog")
                         .WithMany("Posts")
                         .HasForeignKey("BlogId")
                         .OnDelete(DeleteBehavior.Cascade);

@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 
-namespace hello
+namespace Hello
 {
     public class BloggingContext : DbContext
     {

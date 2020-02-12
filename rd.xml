@@ -1,19 +1,19 @@
 <Directives>
     <Application>
-        <Assembly Name="hello" Dynamic="Required All" />
+        <Assembly Name="Hello" Dynamic="Required All" />
         <!-- 'Microsoft.EntityFrameworkCore.Internal.DiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.Infrastructure>' -->
         <!-- 'Microsoft.EntityFrameworkCore.Internal.DbSetInitializer' -->
-        <!-- 'Microsoft.EntityFrameworkCore.DbSet<hello.Blog>'-->
+        <!-- 'Microsoft.EntityFrameworkCore.DbSet<Hello.Blog>'-->
         <!-- 'Microsoft.EntityFrameworkCore.Metadata.Internal.ClrAccessorFactory<Microsoft.EntityFrameworkCore.Metadata.Internal.IClrPropertySetter>.
                 CreateGeneric<
-                    hello.BloggingContext,
-                    Microsoft.EntityFrameworkCore.DbSet<hello.Blog>,
-                    Microsoft.EntityFrameworkCore.DbSet<hello.Blog>>
+                    Hello.BloggingContext,
+                    Microsoft.EntityFrameworkCore.DbSet<Hello.Blog>,
+                    Microsoft.EntityFrameworkCore.DbSet<Hello.Blog>>
                     (System.Reflection.PropertyInfo,Microsoft.EntityFrameworkCore.Metadata.IPropertyBase)'
         -->
         <!-- 'Microsoft.EntityFrameworkCore.Metadata.Internal.ClrAccessorFactory<Microsoft.EntityFrameworkCore.Metadata.Internal.IClrPropertyGetter>.
                 CreateGeneric<
-                    hello.Blog,
+                    Hello.Blog,
                     System.Int32,
                     System.Int32>
                     (System.Reflection.PropertyInfo,Microsoft.EntityFrameworkCore.Metadata.IPropertyBase)'
@@ -53,23 +53,23 @@
         <!-- 'Microsoft.EntityFrameworkCore.ChangeTracking.Internal.KeyPropagator..ctor(Microsoft.EntityFrameworkCore.ValueGeneration.IValueGeneratorSelector)'  -->
         <!-- 'Microsoft.EntityFrameworkCore.ChangeTracking.Internal.ValueGenerationManager..ctor(Microsoft.EntityFrameworkCore.ValueGeneration.IValueGeneratorSelector,Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IKeyPropagator,Microsoft.EntityFrameworkCore.Diagnostics.IDiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.ChangeTracking>,Microsoft.EntityFrameworkCore.Diagnostics.ILoggingOptions)' -->
         <!-- 'Microsoft.EntityFrameworkCore.Internal.DbContextDependencies..ctor(Microsoft.EntityFrameworkCore.Internal.ICurrentDbContext,Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IChangeDetector,Microsoft.EntityFrameworkCore.Internal.IDbSetSource,Microsoft.EntityFrameworkCore.Internal.IDbQuerySource,Microsoft.EntityFrameworkCore.Internal.IEntityFinderSource,Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IEntityGraphAttacher,Microsoft.EntityFrameworkCore.Metadata.IModel,Microsoft.EntityFrameworkCore.Query.Internal.IAsyncQueryProvider,Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IStateManager,Microsoft.EntityFrameworkCore.Diagnostics.IDiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.Update>,Microsoft.EntityFrameworkCore.Diagnostics.IDiagnosticsLogger<Microsoft.EntityFrameworkCore.DbLoggerCategory.Infrastructure>)' -->
-        <!-- 'Microsoft.EntityFrameworkCore.Metadata.Internal.ClrAccessorFactory<Microsoft.EntityFrameworkCore.Metadata.Internal.IClrPropertyGetter>.CreateGeneric<hello.Blog,System.Int32,System.Int32>(System.Reflection.PropertyInfo,Microsoft.EntityFrameworkCore.Metadata.IPropertyBase)' -->
-        <!-- 'Microsoft.EntityFrameworkCore.Internal.DbSetSource.CreateSetFactory<hello.Blog>()' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Metadata.Internal.ClrAccessorFactory<Microsoft.EntityFrameworkCore.Metadata.Internal.IClrPropertyGetter>.CreateGeneric<Hello.Blog,System.Int32,System.Int32>(System.Reflection.PropertyInfo,Microsoft.EntityFrameworkCore.Metadata.IPropertyBase)' -->
+        <!-- 'Microsoft.EntityFrameworkCore.Internal.DbSetSource.CreateSetFactory<Hello.Blog>()' -->
         <!-- 'Microsoft.EntityFrameworkCore.ChangeTracking.ValueComparer<System.Int32>' -->
         <Assembly Name="Microsoft.EntityFrameworkCore">
             <Type Name="Microsoft.EntityFrameworkCore.Internal.DiagnosticsLogger`1[[Microsoft.EntityFrameworkCore.DbLoggerCategory+Infrastructure,Microsoft.EntityFrameworkCore]]" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.Internal.DbSetInitializer" Dynamic="Required All" />
-            <Type Name="Microsoft.EntityFrameworkCore.DbSet`1[[hello.Blog,hello]]" Dynamic="Required All" />
+            <Type Name="Microsoft.EntityFrameworkCore.DbSet`1[[Hello.Blog,Hello]]" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.Metadata.Internal.ClrAccessorFactory`1[[Microsoft.EntityFrameworkCore.Metadata.Internal.IClrPropertySetter,Microsoft.EntityFrameworkCore]]">
                 <Method Name="CreateGeneric" Dynamic="Required">
-                    <GenericArgument Name="hello.BloggingContext,hello" />
-                    <GenericArgument Name="Microsoft.EntityFrameworkCore.DbSet`1[[hello.Blog,hello]], Microsoft.EntityFrameworkCore" />
-                    <GenericArgument Name="Microsoft.EntityFrameworkCore.DbSet`1[[hello.Blog,hello]], Microsoft.EntityFrameworkCore" />
+                    <GenericArgument Name="Hello.BloggingContext,Hello" />
+                    <GenericArgument Name="Microsoft.EntityFrameworkCore.DbSet`1[[Hello.Blog,Hello]], Microsoft.EntityFrameworkCore" />
+                    <GenericArgument Name="Microsoft.EntityFrameworkCore.DbSet`1[[Hello.Blog,Hello]], Microsoft.EntityFrameworkCore" />
                 </Method>
             </Type>
             <Type Name="Microsoft.EntityFrameworkCore.Metadata.Internal.ClrAccessorFactory`1[[Microsoft.EntityFrameworkCore.Metadata.Internal.IClrPropertyGetter,Microsoft.EntityFrameworkCore]]">
                 <Method Name="CreateGeneric" Dynamic="Required">
-                    <GenericArgument Name="hello.Blog,hello" />
+                    <GenericArgument Name="Hello.Blog,Hello" />
                     <GenericArgument Name="System.Int32,System.Runtime" />
                     <GenericArgument Name="System.Int32,System.Runtime" />
                 </Method>
@@ -111,7 +111,7 @@
             <Type Name="Microsoft.EntityFrameworkCore.Internal.DbContextDependencies" Dynamic="Required All" />
             <Type Name="Microsoft.EntityFrameworkCore.Internal.DbSetSource">
                 <Method Name="CreateSetFactory" Dynamic="Required">
-                    <GenericArgument Name="hello.Blog,hello" />
+                    <GenericArgument Name="Hello.Blog,Hello" />
                 </Method>
             </Type>
             <Type Name="Microsoft.EntityFrameworkCore.ChangeTracking.ValueComparer`1[[System.Int32,System.Runtime]]" Dynamic="Required All" />
@@ -242,7 +242,7 @@
             <Type Name="Microsoft.Extensions.Caching.Memory.MemoryCacheOptions" Dynamic="Required All" />
         </Assembly>
 
-        <!-- System.Linq.Expressions.ExpressionCreator<System.Action<hello.BloggingContext,Microsoft.EntityFrameworkCore.DbSet<hello.Blog>>>. -->
+        <!-- System.Linq.Expressions.ExpressionCreator<System.Action<Hello.BloggingContext,Microsoft.EntityFrameworkCore.DbSet<Hello.Blog>>>. -->
         <Assembly Name="System.Linq.Expressions">
             <Type Name="System.Linq.Expressions.ExpressionCreator`1[[Newtonsoft.Json.Serialization.ObjectConstructor`1[[System.Object,System.Private.CoreLib]],Newtonsoft.Json]]" Dynamic="Required All" />
             <Type Name="System.Linq.Expressions.ExpressionCreator`1[[System.Func`2[[System.Object,System.Private.CoreLib],[System.Object,System.Private.CoreLib]],System.Private.CoreLib]]" Dynamic="Required All" />

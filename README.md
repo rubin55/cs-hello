@@ -5,7 +5,7 @@ A small example using dotnet core 2.1 with CoreRT on Windows:
   - `cd dot-hello`
   - `dotnet publish -r win-x64 -c release`
   - `cd bin\release\netcoreapp2.1\win-x64\publish`
-  - `hello.exe`
+  - `Hello.exe`
 
 On macOS (tested on Mojave 10.14):
 
@@ -13,7 +13,7 @@ On macOS (tested on Mojave 10.14):
   - `cd dot-hello`
   - `dotnet publish -r osx-x64 -c release`
   - `cd bin/release/netcoreapp2.1/osx-x64/publish`
-  - `./hello`
+  - `./Hello`
 
 On Linux (tested on Ubuntu 16.04), make sure native compilation deps are taken care of:
 
@@ -27,4 +27,4 @@ On Linux (tested on Ubuntu 16.04), make sure native compilation deps are taken c
   - `cd dot-hello`
   - `dotnet publish -r linux-x64 -c release`
   - `cd bin/release/netcoreapp2.1/linux-x64/publish`
-  - `./hello`
+  - `./Hello`
