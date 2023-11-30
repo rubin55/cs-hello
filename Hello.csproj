@@ -15,14 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <!-- Do not generate partial metadata for types - always include all members even if they're unused -->
-    <IlcArg Include="--completetypemetadata" />
-
-    <!-- Generate extra data to make stack traces nicer -->
-    <IlcArg Include="--stacktracedata" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore" Version="2.1.0" />
     <PackageReference Include="Microsoft.DotNet.ILCompiler" Version="1.0.0-alpha-*" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.4" />
